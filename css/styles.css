@@ -74,7 +74,6 @@ body {
 
 .hero {
 	background-color: var(--background-cl);
-	font-family: var(--main-font);
 }
 .hero-title {
 	font-size: 44px;
@@ -82,6 +81,7 @@ body {
 	line-height: calc(60 / 44);
 	letter-spacing: 0.06em;
 	color: var(--light-cl);
+	text-transform: uppercase;
 }
 
 .hero-btn {
@@ -95,9 +95,6 @@ body {
 	cursor: pointer;
 }
 /* Qualities */
-.qualities {
-	background-color: var(--backgroung-light-cl);
-}
 .qualities-name {
 	font-size: 14px;
 	font-weight: 700;
@@ -108,15 +105,12 @@ body {
 
 .qualities-subtitle {
 	font-size: 14px;
-	font-weight: 400;
+
 	line-height: calc(24 / 14);
 	letter-spacing: 0.03em;
 	color: var(--secondly-text-cl);
 }
 /* What we doing */
-.doing {
-	background-color: var(--backgroung-light-cl);
-}
 .doing-title {
 	font-size: 36px;
 	font-weight: 700;
@@ -145,8 +139,6 @@ body {
 	color: var(--main-text-cl);
 }
 .team-subtitle {
-	font-size: 16px;
-	font-weight: 400;
 	line-height: calc(19 / 16);
 	letter-spacing: 0.03em;
 	color: var(--secondly-text-cl);
@@ -171,7 +163,6 @@ body {
 	color: var(--accent-cl);
 }
 .contact {
-	font-family: Roboto;
 	font-size: 14px;
 	line-height: calc(24 / 14);
 	letter-spacing: 0.03em;
@@ -184,12 +175,7 @@ body {
 	color: #ffffff99;
 }
 /* Portfolio */
-.portfolio {
-	font-family: var(--main-font);
-}
-/* .hidden {
 
-} */
 .portfolio-btn {
 	font-family: inherit;
 	font-size: 16px;
@@ -215,8 +201,6 @@ body {
 }
 
 .portfolio-product-subtitle {
-	font-size: 16px;
-	font-weight: 400;
 	line-height: calc(30 / 16);
 	letter-spacing: 0.03em;
 	color: var(--secondly-text-cl);
